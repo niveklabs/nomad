@@ -1,7 +1,3 @@
-# nomad Provider
-
-[embedmd]:# (nomad.tf)
-```tf
 provider "nomad" {
   version = "1.4.5"
 
@@ -13,4 +9,3 @@ provider "nomad" {
   secret_id   = null
   vault_token = null
 }
-```

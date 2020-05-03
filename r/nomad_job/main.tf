@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    nomad = ">= 1.4.4"
+    nomad = ">= 1.4.5"
   }
 }
 

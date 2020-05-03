@@ -1,5 +1,5 @@
 module "nomad_job" {
-  source = "./nomad/r/nomad_job"
+  source = "./modules/nomad/r/nomad_job"
 
   deregister_on_destroy   = null
   deregister_on_id_change = null

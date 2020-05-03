@@ -1,5 +1,5 @@
 module "nomad_quota_specification" {
-  source = "./nomad/r/nomad_quota_specification"
+  source = "./modules/nomad/r/nomad_quota_specification"
 
   description = null
   name        = null
